@@ -1,0 +1,780 @@
+body {
+  margin: 0px;
+}
+.container {
+  margin-left: 80px;
+  padding-top: 28px;
+  z-index: 0;
+}
+.container-1 {
+  margin-left: 200px;
+}
+.header {
+  background-image: url(header-backround-1.png);
+  height: 900px;
+  z-index: 0;
+}
+
+.header-block {
+  position: relative;
+  z-index: 0;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.nav-bar-item {
+  text-decoration: none;
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: white;
+  padding-left: 30px;
+  transition: 0.2s linear;
+  padding-right: 30px;
+}
+.nav-bar-item-btn {
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  background-color: #5221e6;
+  padding: 32px 24px;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+.nav-bar-items {
+  z-index: 1;
+  text-align: right;
+  padding-left: 60%;
+}
+.nav-bar-item:hover {
+  color: rgb(249, 9, 253);
+}
+.nav-bar-item-btn:hover {
+  background-color: rgb(249, 9, 253);
+}
+.header-imgs {
+  z-index: 2;
+}
+.header-title {
+  color: white;
+  font-family: "Sen", sans-serif;
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 94px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 219px;
+  left: 577px;
+  z-index: 2;
+}
+.header-title span {
+  color: #ffffff80;
+}
+.header-down {
+  display: flex;
+  position: relative;
+}
+.header-img {
+  padding: 0px;
+  position: absolute;
+  top: 89px;
+  left: -78px;
+  z-index: 1;
+}
+.header-desc {
+  color: white;
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 535px;
+  left: 577px;
+  z-index: 2;
+}
+.work-card-num {
+  font-family: "Sen", sans-serif;
+  font-size: 117px;
+  font-weight: 400;
+  line-height: 141px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8491a0;
+}
+.work-card-title1 {
+  font-family: "Sen", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  width: 400px;
+}
+.work-card-title1 span {
+  color: #3cc74e;
+}
+.work-card-desc {
+  color: #8491a0;
+}
+.work-card-title2 {
+  font-family: "Sen", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  width: 400px;
+}
+.work-card-title2 span {
+  color: #609bff;
+}
+.work-card-title3 {
+  font-family: "Sen", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  width: 400px;
+}
+.work-card-title3 span {
+  color: #e95d90;
+}
+.work-title {
+  color: #8491a0;
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 10px;
+}
+.work-suptitle {
+  font-family: "Sen", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.work {
+  background-color: black;
+  width: 1440;
+  height: 916;
+  border-top: #8491a0 dashed;
+}
+.work-up {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.work-cards {
+  display: flex;
+}
+.work-card {
+  width: 33%;
+}
+.work-card-desc {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+/* PHILOSIPHY */
+.philosophy-right {
+  position: absolute;
+  top: 0px;
+  left: 96.2%;
+}
+.philosophy-box {
+  display: flex;
+  position: relative;
+  width: 60%;
+}
+
+.philosophy {
+  background: #fff3e4;
+  height: 600px;
+}
+.philosophy-title {
+  font-family: "Sen", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 120px;
+}
+.philosophy-desc {
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5b6876;
+  padding-top: 24px;
+}
+.philosophy-button {
+  color: #181823;
+  border-bottom: 1px #8491a0 solid;
+  text-decoration: none;
+  font-family: "Sen", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.2s linear;
+}
+
+.philosophy-button:hover {
+  color: rgb(249, 9, 253);
+  border-bottom: 1px rgb(249, 9, 253) solid;
+}
+.philosophy-btn {
+  padding-top: 134px;
+}
+/* SKILSET */
+.skilset-box {
+  display: flex;
+  width: 80%;
+}
+.skilset-right {
+  text-align: left;
+  padding-left: 10%;
+}
+.skilset-card-title {
+  font-family: "Sen", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.skilset-desc {
+  width: 400px;
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8491a0;
+}
+.skilset-card-desc {
+  width: 300px;
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8491a0;
+  padding-bottom: 70px;
+  padding-right: 170px;
+  width: 400px;
+}
+.skilset-card {
+  display: flex;
+}
+.skilset {
+  background: black;
+  width: 100%;
+  height: 700px;
+}
+.skilset-title {
+  color: white;
+  font-family: "Sen", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.skilset-box {
+  padding-top: 120px;
+}
+.nav-bare {
+  display: flex;
+  background: black;
+  align-self: center;
+  justify-content: center;
+}
+.nav-bare-item1 {
+  border: #282c30c3 1px solid;
+  padding: 55px 128px;
+}
+.nav-bare-item {
+  border: #282c30c3 1px solid;
+  padding: 55px 128px;
+  transition: 0.2s linear;
+}
+
+.nav-bare-item:hover {
+  background-color: rgb(249, 9, 253);
+}
+/* MYPROGECTS */
+
+.myprogects {
+  background: black;
+  width: 100%;
+  height: 2200px;
+}
+.myprogects-title-box {
+  width: 800px;
+  margin: 0px;
+  display: block;
+  height: 300px;
+}
+
+.myprogects-title {
+  color: #8491a0;
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 120px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 20px;
+}
+.myprogects-suptitle {
+  font-family: "Sen", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+
+  width: 600px;
+  margin-bottom: 80px;
+  margin-right: 100px;
+  height: 100px;
+  padding-bottom: 80px;
+}
+.myprogects-card-title {
+  font-family: "Sen", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 12px;
+  width: 638px;
+}
+.myprogects-card-desc {
+  color: #8491a0;
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding: 30px;
+  width: 638px;
+}
+
+.myprogects-card {
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.myprogects-card-1 {
+  padding-left: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 80px;
+}
+.myprogects-card-2 {
+  padding-left: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 92px;
+}
+.myprogects-card-title-box {
+  background: #181823;
+  border: #5b6876 1px solid;
+  width: 636px;
+}
+.myprogects-card-img {
+  border: #5b6876 1px solid;
+  border-bottom: none;
+}
+.myprogects-title-box-x {
+  display: flex;
+  height: 400px;
+}
+.myprogects-card-left {
+  display: block;
+}
+.myprogects-card-right {
+  padding-top: 160px;
+}
+.myprogect-button {
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 24px 32px;
+  border: 1px #5221e6 solid;
+  text-decoration: none;
+  background: black;
+  transition: 0.2s linear;
+  margin-left: 195px;
+}
+.myprogect-button:hover {
+  color: rgb(249, 9, 253);
+  border: rgb(249, 9, 253) 1px solid;
+}
+/* INTAGRAM */
+.instagram {
+  background: #fbe4ff;
+  height: 600px;
+}
+.instagram-title {
+  font-family: "Sen", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  margin-top: 120px;
+}
+.instagram-desc {
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5b6876;
+  padding-top: 24px;
+}
+.instagram-button {
+  color: #181823;
+  border-bottom: 1px #8491a0 solid;
+  text-decoration: none;
+  font-family: "Sen", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.2s linear;
+}
+
+.instagram-button:hover {
+  color: rgb(249, 9, 253);
+  border-bottom: 1px rgb(249, 9, 253) solid;
+}
+.instagram-btn {
+  padding-top: 134px;
+}
+.instagram-right {
+  position: absolute;
+  top: 0px;
+  left: 96.2%;
+}
+.instagram-box {
+  display: flex;
+  position: relative;
+  width: 60%;
+}
+/* DRIBBBLE */
+.dribbble {
+  background: black;
+  height: 1248px;
+  width: 100%;
+}
+.dribbble-title {
+  font-family: "Sen", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+.dribbble-desc {
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #8491a0;
+  padding-bottom: 40px;
+}
+.dribbble-button {
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border-bottom: 1px solid #8491a0;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+.dribbble-button:hover {
+  border-bottom: 1px solid rgb(249, 9, 253);
+  color: rgb(249, 9, 253);
+}
+.dribbble-title-box {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.dribbble-image {
+  margin-left: 182px;
+}
+/* THISIS */
+.thisis {
+  background: black;
+  height: 2722px;
+  width: 100%;
+}
+.thisis-title {
+  font-family: "Sen", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+.thisis-desc {
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #8491a0;
+  padding-bottom: 40px;
+}
+
+.thisis-button {
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+.thisis-button:hover {
+  border-bottom: 1px solid rgb(249, 9, 253);
+  color: rgb(249, 9, 253);
+}
+.thisis-title-box {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-right: 180px;
+}
+.thisis-title-container {
+  display: flex;
+}
+.thisis-card {
+  padding-top: 120px;
+}
+.thisis-card-img {
+  border: 1px solid #8491a0;
+}
+.thisis-card-text {
+  border: 1px solid #8491a0;
+}
+.thisis-card-desc {
+  color: #ffffff;
+  font-family: "Sen", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 64px;
+}
+.thisis-card-nikename {
+  color: #5b6876;
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.thisis-card-companiname {
+  color: #5b6876;
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+.thisis-card-names {
+  margin: 64px;
+}
+/* PHOTOGRAPHY */
+.photography {
+  background: black;
+  width: 100%;
+  height: 800px;
+}
+.photography-text {
+  font-family: "Sen", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.photography-desc {
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #8491a0;
+  margin-top: 20px;
+}
+.photography-btns {
+  display: flex;
+  margin-top: 80px;
+}
+.photography-button {
+  padding: 12px 16px;
+  border: 1px solid #5221e6;
+  color: #ffffff;
+  background: black;
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 25px;
+  transition: 0.2s linear;
+}
+.photography-button:hover {
+  border: 1px solid rgb(249, 9, 253);
+  color: rgb(249, 9, 253);
+}
+.photography-images {
+  display: flex;
+  margin-top: 50px;
+}
+.photography-img {
+  margin-right: 70px;
+  display: block;
+}
+.hiden {
+  display: none;
+}
+/* LOGIN */
+.login {
+  background: black;
+  width: 100%;
+  height: 731px;
+}
+.login-title {
+  font-family: "Sen", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.login-desc {
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #8491a0;
+}
+.login-name-1 {
+  color: #ffffff;
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.login-vvod {
+  border: none;
+  background: #181823;
+  width: 526px;
+  height: 50px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+.login-vvod-1 {
+  border: none;
+  background: #181823;
+  width: 526px;
+  height: 100px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  resize: none;
+}
+.login-button {
+  color: #ffffff;
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 24px 182px;
+  background: #5221e6;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+.login-button:hover {
+  background: rgb(249, 9, 253);
+}
+
+.login-btn {
+  margin-top: 50px;
+}
+.login-box-1 {
+  display: flex;
+}
+.login-box {
+  margin-left: 400px;
+}
+/* FOOTER */
+.footer {
+  height: 492px;
+  width: 100%;
+  background: #181823;
+}
+.footer-logs {
+  margin-top: 6%;
+  margin-left: 5%;
+  height: 50px;
+}
+.footer-logos-box {
+  display: flex;
+  margin-top: 32px;
+}
+.footer-logo-1 {
+  margin-bottom: 24px;
+}
+.footer-logo-2 {
+  margin-right: 16px;
+}
+.footer-box {
+  display: flex;
+}
+.footer-nav-bar-item {
+  color: #ffffff;
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 50px;
+  transition: 0.2s linear;
+  text-decoration: none;
+}
+.footer-nav-bar-item:hover {
+  color: rgb(249, 9, 253);
+}
+.footer-nav-bar {
+  display: flex;
+  margin-left: 51%;
+  margin-top: 6%;
+}
+.footer-nav-bar-left {
+  padding-right: 200px;
+}
+.footer-title {
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8491a0;
+}
+.footer-title {
+  padding-bottom: 60px;
+  margin-left: 5%;
+}
+.q {
+  text-decoration: none;
+}
